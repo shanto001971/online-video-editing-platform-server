@@ -32,7 +32,37 @@ const client = new MongoClient(uri, {
 async function run() {
 	try {
 		// Connect the client to the server	(optional starting in v4.7)
-		await client.connect();
+		// await client.connect();
+
+		const imagesCollection = client
+			.db('videoEditor')
+			.collection('demoImgData');
+		const musicCollection = client
+			.db('videoEditor')
+			.collection('demoMusicData');
+		const templateCollection = client
+			.db('videoEditor')
+			.collection('demoTemplateData');
+		const videoCollection = client
+			.db('videoEditor')
+			.collection('demoVideoData');
+
+		app.get('/demoImages', async (req, res) => {
+			const result = await imagesCollection.find().toArray();
+			res.send(result);
+		});
+		app.get('/demoMusics', async (req, res) => {
+			const result = await musicCollection.find().toArray();
+			res.send(result);
+		});
+		app.get('/demoTemplates', async (req, res) => {
+			const result = await templateCollection.find().toArray();
+			res.send(result);
+		});
+		app.get('/demoVideos', async (req, res) => {
+			const result = await videoCollection.find().toArray();
+			res.send(result);
+		});
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
