@@ -1,10 +1,9 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 5000;
-const { MongoClient, ServerApiVersion } = require('mongodb');
-
 const cors = require('cors');
 require('dotenv').config();
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const port = process.env.PORT || 5000;
 
 // middleware
 const corsOptions = {
@@ -12,11 +11,11 @@ const corsOptions = {
 	credentials: true,
 	optionSuccessStatus: 200,
 };
+
 app.use(cors(corsOptions));
 app.use(express.json());
 
-// videoEditor
-// AQGTtFpcUjcrPWab
+
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.yg908g2.mongodb.net/?retryWrites=true&w=majority`;
 
@@ -27,6 +26,10 @@ const client = new MongoClient(uri, {
 		strict: true,
 		deprecationErrors: true,
 	},
+});
+
+app.get('/', (req, res) => {
+	res.send('Hello my dear Online video editor');
 });
 
 async function run() {
@@ -46,10 +49,8 @@ async function run() {
 }
 run().catch(console.dir);
 
-app.get('/', (req, res) => {
-	res.send('Hello my dear Online video editor');
-});
+
 
 app.listen(port, () => {
-	console.log('Hello I am from online video editor server');
+	console.log(`online video editor server running on port${port}`);
 });
