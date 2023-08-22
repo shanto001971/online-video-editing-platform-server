@@ -16,6 +16,10 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 
+//TODO: Warning data must be inserted mongodb. Here I implement use just demo
+const demoImagesData = require("./data/demoImagesData.json");
+const demoVideosData = require("./data/demoVideosData.json");
+
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.yg908g2.mongodb.net/?retryWrites=true&w=majority`;
 
@@ -66,6 +70,16 @@ async function run() {
 			const result = await videoCollection.find().toArray();
 			res.send(result);
 		});
+
+
+    //TODO: Warning data must be inserted mongodb. Here I implement use just demo
+    app.get("/demoImagesData", (req, res) => {
+		res.send(demoImagesData);
+	  });
+  
+	app.get("/demoVideosData", (req, res) => {
+		res.send(demoVideosData);
+	  });
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
