@@ -44,13 +44,8 @@ async function run() {
 		const imagesCollection = client
 			.db('videoEditor')
 			.collection('demoImgData');
-		const musicCollection = client
-			.db('videoEditor')
-			.collection('demoMusicData');
-		const templateCollection = client
-			.db('videoEditor')
-			.collection('demoTemplateData');
-		const videoCollection = client
+		
+		const videosCollection = client
 			.db('videoEditor')
 			.collection('demoVideoData');
 
@@ -58,16 +53,9 @@ async function run() {
 			const result = await imagesCollection.find().toArray();
 			res.send(result);
 		});
-		app.get('/demoMusics', async (req, res) => {
-			const result = await musicCollection.find().toArray();
-			res.send(result);
-		});
-		app.get('/demoTemplates', async (req, res) => {
-			const result = await templateCollection.find().toArray();
-			res.send(result);
-		});
+		
 		app.get('/demoVideos', async (req, res) => {
-			const result = await videoCollection.find().toArray();
+			const result = await videosCollection.find().toArray();
 			res.send(result);
 		});
 
