@@ -15,12 +15,10 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
-
 //TODO: Warning data must be inserted mongodb. Here I implement use just demo
-const demoImagesData = require("./data/demoImagesData.json");
-const demoVideosData = require("./data/demoVideosData.json");
-const templateData = require("./data/templateData.json");
-
+const demoImagesData = require('./data/demoImagesData.json');
+const demoVideosData = require('./data/demoVideosData.json');
+const templateData = require('./data/templateData.json');
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.yg908g2.mongodb.net/?retryWrites=true&w=majority`;
 
@@ -45,34 +43,29 @@ async function run() {
 		const imagesCollection = client
 			.db('videoEditor')
 			.collection('demoImgData');
-		
+
 		const videosCollection = client
 			.db('videoEditor')
 			.collection('demoVideoData');
+
+		const templateCollection = client
+			.db('videoEditor')
+			.collection('templateData');
 
 		app.get('/demoImages', async (req, res) => {
 			const result = await imagesCollection.find().toArray();
 			res.send(result);
 		});
-		
+
 		app.get('/demoVideos', async (req, res) => {
 			const result = await videosCollection.find().toArray();
 			res.send(result);
 		});
 
-
-    //TODO: Warning data must be inserted mongodb. Here I implement use just demo
-    app.get("/demoImagesData", (req, res) => {
-		res.send(demoImagesData);
-	  });
-  
-	app.get("/demoVideosData", (req, res) => {
-		res.send(demoVideosData);
-	  });
-
-	app.get("/templateData", (req, res) => {
-		res.send(templateData);
-	  });
+		app.get('/templateData', async (req, res) => {
+			const result = await templateCollectionCollection.find().toArray();
+			res.send(result);
+		});
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
@@ -85,8 +78,6 @@ async function run() {
 	}
 }
 run().catch(console.dir);
-
-
 
 app.listen(port, () => {
 	console.log(`online video editor server running on port${port}`);
