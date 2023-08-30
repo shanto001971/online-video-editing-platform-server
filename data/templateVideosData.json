@@ -1,0 +1,783 @@
+[
+    {
+        "category": "Music",
+        "data": [
+          {
+            "_id": "64eb2bd3b26d016a2b660cb4",
+            "category": "Music",
+            "video_src": "https://player.vimeo.com/external/409204604.hd.mp4?s=ef787a62663a37d1a7b59c00c954e0a5cf4fa893&profile_id=174&oauth2_token_id=57447761",
+            "title": "Man Playing His Guitar While Walking In A Hill",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:19",
+            "use": "21k"
+          },
+          {
+            "_id": "64eb2bd35afc27e39dd9ad84",
+            "category": "Music",
+            "video_src": "https://player.vimeo.com/external/380090038.hd.mp4?s=a51cd065ebc29bbc197be9a43f8aabf8527a5813&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Turntable Spinning A Musical Record For Sounds",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "11k"
+          },
+          {
+            "_id": "64eb2bd3b10306acc7912efd",
+            "category": "Music",
+            "video_src": "https://player.vimeo.com/external/513964762.hd.mp4?s=ebb7c936f459c07a6ddcd26edc625f067c866ef8&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Person Tapping Fingers on a Turntable",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:31",
+            "use": "41k"
+          },
+          {
+            "_id": "64eb2bd304a10675af940518",
+            "category": "Music",
+            "video_src": "https://player.vimeo.com/external/371446550.sd.mp4?s=77be4070c8298f17eb09ebf9a1202aabf7737496&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Woman Playing A Ukelele Guitar",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:13",
+            "use": "21k"
+          },
+          {
+            "_id": "64eb2bd32762631fb24d3bad",
+            "category": "Music",
+            "video_src": "https://player.vimeo.com/external/448479837.sd.mp4?s=04dc253578bc5a24275c8bc523aec61f95b8e09b&profile_id=165&oauth2_token_id=57447761",
+            "title": "Boy Listening to Music and Grooving",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:11",
+            "use": "21k"
+          },
+          {
+            "_id": "64eb2bd3cd597d3747c34e5d",
+            "category": "Music",
+            "video_src": "https://player.vimeo.com/external/389225159.hd.mp4?s=d9550d4f99784aac3bde7faa187a63923bb6aff9&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Young Girl Playing With A Ukelele",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:15",
+            "use": "91k"
+          }
+        ]
+      },
+    {
+        "category": "Vlog",
+        "data": [
+          {
+            "_id": "64eb2bd3fa14d7c149e9b2a6",
+            "category": "Vlog",
+            "video_src": "https://player.vimeo.com/external/441944593.sd.mp4?s=878a4f90afd9f1eee8d7932b226e56a556f7f92d&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman Recording a Video",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:17",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd371baffa90fd3957c",
+            "category": "Vlog",
+            "video_src": "https://player.vimeo.com/external/395491057.sd.mp4?s=555e8af60686f71bbfd26b517899cdbe77a69482&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Filipino Man Recording a Video at a Beach",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:27",
+            "use": "61k"
+          },
+          {
+            "_id": "64eb2bd39e0de90ab92d4342",
+            "category": "Vlog",
+            "video_src": "https://player.vimeo.com/external/495156055.sd.mp4?s=db93c3ef1f5f113e9a04d531ac590c7d3cf6e09f&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Man Recording a Vlog on a Railroad Track",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:12",
+            "use": "27k"
+          },
+          {
+            "_id": "64eb2bd317cade3b2d9b8f37",
+            "category": "Vlog",
+            "video_src": "https://player.vimeo.com/external/633168667.hd.mp4?s=69ffbe951fa3f95118eb546db92fdb51bf22c4be&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Person Taking Photos with a Cellphone",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:12",
+            "use": "30k"
+          },
+          {
+            "_id": "64eb2bd35d56c100781cc8ab",
+            "category": "Vlog",
+            "video_src": "https://player.vimeo.com/external/472355995.sd.mp4?s=1f02d2b924c4260b00f6d6daea2a2957571af0da&profile_id=165&oauth2_token_id=57447761",
+            "title": "Grandmother and Granddaughter Taking a Selfie",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:19",
+            "use": "11k"
+          },
+          {
+            "_id": "64eb2bd36cc413888811cb25",
+            "category": "Vlog",
+            "video_src": "https://player.vimeo.com/external/467385254.hd.mp4?s=71e9e42d6779c0f084c3b91fae4568e69e0f45e9&profile_id=174&oauth2_token_id=57447761",
+            "title": "Elderly Woman Reading While Drinking Tea",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "01:08",
+            "use": "91k"
+          }
+        ]
+      },
+    {
+        "category": "Games",
+        "data": [
+          {
+            "_id": "64eb2bd3fa2707d971579f76",
+            "category": "Games",
+            "video_src": "https://player.vimeo.com/external/458879330.sd.mp4?s=b01165b44502a30f9320ebd7576469a6dbcd6159&profile_id=165&oauth2_token_id=57447761",
+            "title": "Two Persons Wearing a Guy Fawkes Mask While Using Their Computers",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:20",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd3e9c5775b7d117622",
+            "category": "Games",
+            "video_src": "https://player.vimeo.com/external/401028576.hd.mp4?s=d9f296fcbad75f66e6abe230ad5a7a09826d80a2&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Couple Playing A Game Of Wooden Blocks In Their Living Room",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:24",
+            "use": "84k"
+          },
+          {
+            "_id": "64eb2bd39d8d22c2d7dcc791",
+            "category": "Games",
+            "video_src": "https://player.vimeo.com/external/549791918.sd.mp4?s=fc0754a00b80b5e3720db54ce726dd8952cd2336&profile_id=165&oauth2_token_id=57447761",
+            "title": "Men Competing In A Video Game",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "64k"
+          },
+          {
+            "_id": "64eb2bd3d8e42f12a2ba0320",
+            "category": "Games",
+            "video_src": "https://player.vimeo.com/external/556817254.sd.mp4?s=fa65bf87b2f5c64dfe0810504fbbb69001eb5cda&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Girl Wearing Headphone while using a Computer",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:07",
+            "use": "26k"
+          },
+          {
+            "_id": "64eb2bd3781783b5a99ab6a2",
+            "category": "Games",
+            "video_src": "https://player.vimeo.com/external/549791301.sd.mp4?s=e82704eed097b1f6055a38bec5cbd7e2c0c9299a&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Woman Sitting In A Gaming Chair Set-up",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "29k"
+          },
+          {
+            "_id": "64eb2bd30b1f087207c38f64",
+            "category": "Games",
+            "video_src": "https://player.vimeo.com/external/500642517.sd.mp4?s=d8e905e60a06331b984c04b71cb70e6df6fcd9b3&profile_id=165&oauth2_token_id=57447761",
+            "title": "Young Man Playing Virtual Reality Game",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:18",
+            "use": "94k"
+          }
+        ]
+      },
+    {
+        "category": "Nature",
+        "data": [
+          {
+            "_id": "64eb2bd36c89343b9b5c13ed",
+            "category": "Nature",
+            "video_src": "https://player.vimeo.com/external/435674472.sd.mp4?s=9908ea387075904282f58443795ae1631fac1e96&profile_id=165&oauth2_token_id=57447761",
+            "title": "Wheat Plants in Field",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:15",
+            "use": "60k"
+          },
+          {
+            "_id": "64eb2bd33ac6765768171707",
+            "category": "Nature",
+            "video_src": "https://player.vimeo.com/external/424511644.sd.mp4?s=2bfc93d7697fd84e2319d3b82135f986b5c1cf8a&profile_id=165&oauth2_token_id=57447761",
+            "title": "Sunset By the Beach",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:06",
+            "use": "84k"
+          },
+          {
+            "_id": "64eb2bd3147e314f10cad641",
+            "category": "Nature",
+            "video_src": "https://player.vimeo.com/external/420234877.sd.mp4?s=3945be536f8330c201c451af29b5f0ce5c118b6c&profile_id=165&oauth2_token_id=57447761",
+            "title": "Brown Mountain During fall Season",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "64k"
+          },
+          {
+            "_id": "64eb2bd3b5dba1a1d1bb6872",
+            "category": "Nature",
+            "video_src": "https://player.vimeo.com/external/420235002.sd.mp4?s=5a10491d99173dbd651f6a8b01a498c540809f60&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman Going Near the Waves",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:18",
+            "use": "47k"
+          },
+          {
+            "_id": "64eb2bd3735a669b52112e0c",
+            "category": "Nature",
+            "video_src": "https://player.vimeo.com/external/420234215.sd.mp4?s=2ff25ace79c27d357763c07e41093d16528dc56c&profile_id=165&oauth2_token_id=57447761",
+            "title": "Ocean Waves",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:11",
+            "use": "20k"
+          },
+          {
+            "_id": "64eb2bd389e37b1a02af97da",
+            "category": "Nature",
+            "video_src": "https://player.vimeo.com/external/449960337.sd.mp4?s=5e3e0de3e2a33d5d5e374e21761dccf68313691c&profile_id=165&oauth2_token_id=57447761",
+            "title": "Sunset at the Ocean",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "4k"
+          }
+        ]
+      },
+    {
+        "category": "Meme",
+        "data": [
+          {
+            "_id": "64eb2bd3f442d97ab1b271cf",
+            "category": "Meme",
+            "video_src": "https://player.vimeo.com/external/389783900.sd.mp4?s=093e605bc7972afe7e84eef2d924de24b3f602fc&profile_id=165&oauth2_token_id=57447761",
+            "title": "Man Doing Treadmill Exercise While Sitting On A Chair",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:37",
+            "use": "24k"
+          },
+          {
+            "_id": "64eb2bd3409740ee765059eb",
+            "category": "Meme",
+            "video_src": "https://player.vimeo.com/external/403318735.sd.mp4?s=c48c90b71664d848d1b1ec1fbe7f6cf5670635a5&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Man Giving Up In Climbing The Stairs With His Partner",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:22",
+            "use": "41k"
+          },
+          {
+            "_id": "64eb2bd3f914053c17903638",
+            "category": "Meme",
+            "video_src": "https://player.vimeo.com/external/521643020.sd.mp4?s=a7a5d342c10682084232d48a9f754f8fb868a9b0&profile_id=165&oauth2_token_id=57447761",
+            "title": "Student Altering His Test Grade",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:24",
+            "use": "2k"
+          },
+          {
+            "_id": "64eb2bd3f6356cdc525e3be9",
+            "category": "Meme",
+            "video_src": "https://player.vimeo.com/external/521642855.sd.mp4?s=80cceee2a082bda9070d5b7b4559a9ed63416a71&profile_id=165&oauth2_token_id=57447761",
+            "title": "Student Asking His Classmate for an Answer During an Exam",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:17",
+            "use": "2k"
+          },
+          {
+            "_id": "64eb2bd3549c527daebe1c95",
+            "category": "Meme",
+            "video_src": "https://player.vimeo.com/external/390016579.sd.mp4?s=9ccd24c45e43c957ed23355420ff7169b52be607&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Young Woman Feeling Frustrated With Anger Loosing Over",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:20",
+            "use": "27k"
+          },
+          {
+            "_id": "64eb2bd3bbb6ae73e55307be",
+            "category": "Meme",
+            "video_src": "https://player.vimeo.com/external/651188058.hd.mp4?s=cfd6b0c9f1188f8c472217e89c1b775c84c07114&profile_id=174&oauth_token_id=57447761",
+            "title": "Boy With Unhappy Expression Playing Chess",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:19",
+            "use": "44k"
+          }
+        ]
+      },
+    {
+        "category": "Business",
+        "data": [
+          {
+            "_id": "64eb2bd350a1b82d18ddbc4f",
+            "category": "Business",
+            "video_src": "https://player.vimeo.com/external/539033394.hd.mp4?s=4a924ed8ab86e02f62f2458f134d2374ee6b6907&profile_id=174&oauth2_token_id=57447761",
+            "title": "Person using Smartphone while Looking Bitcoin",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "24k"
+          },
+          {
+            "_id": "64eb2bd33a4c045273ef3834",
+            "category": "Business",
+            "video_src": "https://player.vimeo.com/external/539025399.hd.mp4?s=24dedd7f849d3dde08b60f0750ead3c34fbc1efa&profile_id=174&oauth2_token_id=57447761",
+            "title": "Man Evaluating the Market",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:21",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd38f6d96a2b6b76efc",
+            "category": "Business",
+            "video_src": "https://player.vimeo.com/external/539027878.hd.mp4?s=b7ca6682fe3a4def5e64b91dd3b9c8278d025c74&profile_id=174&oauth2_token_id=57447761",
+            "title": "Woman is Talking using Smartphone while Holding a Coin",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:25",
+            "use": "46k"
+          },
+          {
+            "_id": "64eb2bd39e9fb79db72edd97",
+            "category": "Business",
+            "video_src": "https://player.vimeo.com/external/539013037.hd.mp4?s=68eefdd3bbf8cabeddc43062f2d043752cb0c226&profile_id=174&oauth2_token_id=57447761",
+            "title": "Man Working using Laptop",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:25",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd3610bfa5edfe3b5ac",
+            "category": "Business",
+            "video_src": "https://player.vimeo.com/external/372085671.sd.mp4?s=b2719e198ac832d9d90f48946d4fc4b4781bffe6&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman With A Smiling Face While Looking Through Some Paperworks",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:11",
+            "use": "29k"
+          },
+          {
+            "_id": "64eb2bd39c336f879b881be6",
+            "category": "Business",
+            "video_src": "https://player.vimeo.com/external/557107420.sd.mp4?s=d34f2110277f3cca68529e9bd9fcab375b66a9b0&profile_id=165&oauth2_token_id=57447761",
+            "title": "Men in Business Meeting",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:12",
+            "use": "4k"
+          }
+        ]
+      },
+    {
+        "category": "Beat",
+        "data": [
+          {
+            "_id": "64eb2bd38205cad73a51a9fc",
+            "category": "Beat",
+            "video_src": "https://player.vimeo.com/external/470603400.hd.mp4?s=18e5b498935a01d2ae5fba64cd9e9af058f62aa1&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Man Skillfully Playing His Drums",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:05",
+            "use": "23k"
+          },
+          {
+            "_id": "64eb2bd334bd821bf9117872",
+            "category": "Beat",
+            "video_src": "https://player.vimeo.com/external/513998483.sd.mp4?s=5565e4707d26dbe3acd8f139f48cf3de601d5b89&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Woman with Colored Hair Listening to Music in Her Black Headphones while in Bed",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "49k"
+          },
+          {
+            "_id": "64eb2bd3a8b3fd8bddb0fd25",
+            "category": "Beat",
+            "video_src": "https://player.vimeo.com/external/517800379.sd.mp4?s=947030571dc340a0e06d401e3bafe8387826db33&profile_id=165&oauth2_token_id=57447761",
+            "title": "Young Woman Having Fun While Listening to Music",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:02",
+            "use": "94k"
+          },
+          {
+            "_id": "64eb2bd30b2d7cfbf2b295d3",
+            "category": "Beat",
+            "video_src": "https://player.vimeo.com/external/495565131.hd.mp4?s=d48f88b27c40304f172dad0f266752b99d906b26&profile_id=174&oauth2_token_id=57447761",
+            "title": "Young Guy Practicing his Dance Moves",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "01:22",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd38742d107c036548e",
+            "category": "Beat",
+            "video_src": "https://player.vimeo.com/external/558709817.sd.mp4?s=bcfddb67e0add8c3135c9884b9f52506bd2311ec&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Guitarist at the Recording Studio",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:09",
+            "use": "74k"
+          },
+          {
+            "_id": "64eb2bd3bc77d09b97396e12",
+            "category": "Beat",
+            "video_src": "https://player.vimeo.com/external/556553158.sd.mp4?s=8d72c9a777ae560edac71777628e983f84cc7896&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Man Playing Drums",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "54k"
+          }
+        ]
+      },
+    {
+        "category": "Fun Play",
+        "data": [
+          {
+            "_id": "64eb2bd3b716062196e2db13",
+            "category": "Fun Play",
+            "video_src": "https://player.vimeo.com/external/364865160.sd.mp4?s=a13f31f1144fcf530fdbc4f14b3a3b3d1f1afc68&profile_id=165&oauth2_token_id=57447761",
+            "title": "Close-up Of A Cream Beige Furred Cat Sleeping On Its Back",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:05",
+            "use": "44k"
+          },
+          {
+            "_id": "64eb2bd33f40e00633ef68fe",
+            "category": "Fun Play",
+            "video_src": "https://player.vimeo.com/external/398519990.hd.mp4?s=f9d32f91bbd7d940475553ff723aea9fd96ff88b&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Woman Makes A Hole On Her Mask To Sip On The Straw Of A Glass Of Milkshake",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:03",
+            "use": "34k"
+          },
+          {
+            "_id": "64eb2bd3892457d2fc4a217f",
+            "category": "Fun Play",
+            "video_src": "https://player.vimeo.com/external/398505073.hd.mp4?s=80e9f6b8363880a3babdf5eb1f2936b6c2453137&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Man In Protective Suit And Gas Mask Is Annoyed Of Not Being Able To Drink Easily",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:14",
+            "use": "24k"
+          },
+          {
+            "_id": "64eb2bd32796a8225f5964ea",
+            "category": "Fun Play",
+            "video_src": "https://player.vimeo.com/external/398549845.hd.mp4?s=e6ee1e8fd9dd9dd6d2aa6d12c219cb27f571ab37&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Man Innovative Idea Of Using Paper Bag For Personal Protection",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:09",
+            "use": "14k"
+          },
+          {
+            "_id": "64eb2bd33858318de30a343d",
+            "category": "Fun Play",
+            "video_src": "https://player.vimeo.com/external/399169795.hd.mp4?s=9d0de59a258ede5c25d7e2dd76250e3c144d3007&profile_id=174&oauth2_token_id=57447761",
+            "title": "A Boy Playing With Eggs By Putting It Over His Eyes",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:14",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd3fee8f1d22bdef01f",
+            "category": "Fun Play",
+            "video_src": "https://player.vimeo.com/external/473351054.sd.mp4?s=21db895319e9ddb18ee5d504f23c1ca3d80cb832&profile_id=165&oauth2_token_id=57447761",
+            "title": "Dog Wearing a Doctor Costume",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:13",
+            "use": "94k"
+          }
+        ]
+      },
+    {
+        "category": "Travel",
+        "data": [
+          {
+            "_id": "64eb2bd3659b3f219a85db3f",
+            "category": "Travel",
+            "video_src": "https://player.vimeo.com/external/324474328.sd.mp4?s=c89855d1df5b84021562eba599dcd1f86d839805&profile_id=165&oauth2_token_id=57447761",
+            "title": "View Of An Airplane's Wing From Window",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:13",
+            "use": "94k"
+          },
+          {
+            "_id": "64eb2bd3973796dbf20fad01",
+            "category": "Travel",
+            "video_src": "https://player.vimeo.com/external/539558416.sd.mp4?s=f45e5f49711bd124b52213ce01b4027a09a4d506&profile_id=165&oauth2_token_id=57447761",
+            "title": "Aerial Footage of Clouds in the Mountain",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:16",
+            "use": "28k"
+          },
+          {
+            "_id": "64eb2bd391c9a693e0e6eca9",
+            "category": "Travel",
+            "video_src": "https://player.vimeo.com/external/568097169.sd.mp4?s=80024a07b4516ed3df14cc100f24dee5dac05a99&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman Walking Barefoot on the Beach",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:54",
+            "use": "74k"
+          },
+          {
+            "_id": "64eb2bd32a2a8b42d7ad9b55",
+            "category": "Travel",
+            "video_src": "https://player.vimeo.com/external/500434376.sd.mp4?s=a8444ea119774c9d11ce888aaa7772ce5712bd56&profile_id=165&oauth2_token_id=57447761",
+            "title": "Waves Crashing on the Beach Sand",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:35",
+            "use": "64k"
+          },
+          {
+            "_id": "64eb2bd3ea75eed7bda51ff0",
+            "category": "Travel",
+            "video_src": "https://player.vimeo.com/external/582517445.sd.mp4?s=fa22e74dfd489189f545702ca4b62904c6833d47&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Video Footage of Beautiful Beach",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:25",
+            "use": "54k"
+          },
+          {
+            "_id": "64eb2bd3f57accebf6035df6",
+            "category": "Travel",
+            "video_src": "https://player.vimeo.com/external/543409599.sd.mp4?s=a348716684bb9b5d7e11b932a9139939432c9abe&profile_id=165&oauth2_token_id=57447761",
+            "title": "Feeding the Ducks",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "29k"
+          }
+        ]
+      },
+    {
+        "category": "Advancer",
+        "data": [
+          {
+            "_id": "64eb2bd35351dd8d1eeded8f",
+            "category": "Advancer",
+            "video_src": "https://player.vimeo.com/external/420234383.sd.mp4?s=bbe7a79800aaced5acde961d42af3838a17d4741&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman Standing at the Balcony",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "56k"
+          },
+          {
+            "_id": "64eb2bd39a1e064912bbb733",
+            "category": "Advancer",
+            "video_src": "https://player.vimeo.com/external/420234508.sd.mp4?s=67d6b8f9933147d346febc9e611758d1c7360109&profile_id=165&oauth2_token_id=57447761",
+            "title": "Person Sitting on the Grass Near Shore",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:16",
+            "use": "76k"
+          },
+          {
+            "_id": "64eb2bd35879010eba8f2e46",
+            "category": "Advancer",
+            "video_src": "https://player.vimeo.com/external/420237184.sd.mp4?s=d7f34ca7a98188d30e3277510e80504bb5e7eaa2&profile_id=165&oauth2_token_id=57447761",
+            "title": "Man Walking on Ice",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:16",
+            "use": "4k"
+          },
+          {
+            "_id": "64eb2bd310ffb77c921acbb8",
+            "category": "Advancer",
+            "video_src": "https://player.vimeo.com/external/484335327.sd.mp4?s=b25d2f19c30de24ce3720da5ecac155a390baa1c&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Man Doing Stunt Tricks",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "54k"
+          },
+          {
+            "_id": "64eb2bd3af2e688b9fdba6d5",
+            "category": "Advancer",
+            "video_src": "https://player.vimeo.com/external/538031972.sd.mp4?s=9d295fa637731e7139337025dc74a96547743a96&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman and Man Sitting on Seaside",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:09",
+            "use": "64k"
+          },
+          {
+            "_id": "64eb2bd3612aee34582e7297",
+            "category": "Advancer",
+            "video_src": "https://player.vimeo.com/external/484335330.sd.mp4?s=6f09c67e33064ebdf1380cf84fc8012319d05227&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Man Doing Parkour",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:10",
+            "use": "24k"
+          }
+        ]
+      },
+    {
+        "category": "Beauty Product",
+        "data": [
+          {
+            "_id": "64eb2bd35acc21edd7426a61",
+            "category": "Beauty Product",
+            "video_src": "https://player.vimeo.com/external/481167180.sd.mp4?s=8803af4a8134adbc4fc804d809b84e2a2aa0462d&profile_id=165&oauth2_token_id=57447761",
+            "title": "Video Of Woman Using Gua Sha Facial Tool On Her Face",
+            "author": "Francesco Morrone",
+            "img_url": "https://i.ibb.co/CPVqRY3/grid1.png",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:24",
+            "use": "94k"
+          },
+          {
+            "_id": "64eb2bd328a840db67ce003e",
+            "category": "Beauty Product",
+            "video_src": "https://player.vimeo.com/external/429466834.hd.mp4?s=420a404048d19edfd62d0b55cd753b86dc63ccbe&profile_id=174&oauth2_token_id=57447761",
+            "title": "Woman With Facial Cream",
+            "author": "Nino Souza",
+            "img_url": "https://i.ibb.co/pJ1DH1B/author7.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:09",
+            "use": "84k"
+          },
+          {
+            "_id": "64eb2bd3cc571c81ad1da37a",
+            "category": "Beauty Product",
+            "video_src": "https://player.vimeo.com/external/400234357.hd.mp4?s=fec0d7d53ed6d7f64b7d736617be72fa06193a79&profile_id=174&oauth2_token_id=57447761",
+            "title": "Applying Red Color Nail Polish On A Person Fingernails",
+            "author": "Abhishek Tanwar",
+            "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:19",
+            "use": "74k"
+          },
+          {
+            "_id": "64eb2bd345b430cf898ff0da",
+            "category": "Beauty Product",
+            "video_src": "https://player.vimeo.com/external/457558104.sd.mp4?s=e032d6725be074c73c85a3bb3dd85f1be854d32a&profile_id=165&oauth2_token_id=57447761",
+            "title": "Woman Applying Eyepatches and Looking at Mirror",
+            "author": "Artem Podrez",
+            "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "64k"
+          },
+          {
+            "_id": "64eb2bd3ececf74c3498c38a",
+            "category": "Beauty Product",
+            "video_src": "https://player.vimeo.com/external/505875553.sd.mp4?s=cee1a9bd3fe3d061bc172e82a68d9ba9af2acdee&profile_id=165&oauth2_token_id=57447761",
+            "title": "A Man Using Beauty Product While Sitting on the Bed",
+            "author": "Tima Miroshnichenko",
+            "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:08",
+            "use": "54k"
+          },
+          {
+            "_id": "64eb2bd3aa107510b2462727",
+            "category": "Beauty Product",
+            "video_src": "https://player.vimeo.com/external/498639843.sd.mp4?s=e30db74f02eae519181ba8d957abbe06254e518b&profile_id=165&oauth2_token_id=57447761",
+            "title": "Person Putting a Facial Roller on a Wooden Plate",
+            "author": "Gigi Galliard",
+            "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+            "description": ["18 clips required", "3 text materials required", "9:16 aspect ratio used"],
+            "duration": "00:12",
+            "use": "44k"
+          }
+        ]
+      }
+]

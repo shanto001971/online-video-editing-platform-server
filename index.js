@@ -19,7 +19,8 @@ app.use(express.json());
 //TODO: Warning data must be inserted mongodb. Here I implement use just demo
 const demoImagesData = require("./data/demoImagesData.json");
 const demoVideosData = require("./data/demoVideosData.json");
-const templateData = require("./data/templateData.json");
+const templateImgData = require("./data/templateImgData.json");
+const templateVideosData = require("./data/templateVideosData.json");
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.yg908g2.mongodb.net/?retryWrites=true&w=majority`;
@@ -70,8 +71,12 @@ async function run() {
 		res.send(demoVideosData);
 	  });
 
-	app.get("/templateData", (req, res) => {
-		res.send(templateData);
+	app.get("/templateImgData", (req, res) => {
+		res.send(templateImgData);
+	  });
+
+	app.get("/templateVideosData", (req, res) => {
+		res.send(templateVideosData);
 	  });
 
 		// Send a ping to confirm a successful connection
