@@ -82,3 +82,19 @@ run().catch(console.dir);
 app.listen(port, () => {
 	console.log(`online video editor server running on port${port}`);
 });
+
+
+
+// const usersCollection = client.db("photographDB").collection("users");
+// app.post('/users', async(req, res) => {
+//       const user = req.body;
+      
+//       const query = {email: user.email}
+//       const existingUser = await usersCollection.findOne(query);
+      
+//       if(existingUser){
+//         return res.send({message: "User is already exists"})
+//       }
+//       const result = await usersCollection.insertOne(user)
+//       res.send(result)
+//     })
