@@ -48,9 +48,15 @@ async function run() {
 			.db('videoEditor')
 			.collection('demoVideoData');
 
-		const templateCollection = client
+		const templateImgDataCollection = client
 			.db('videoEditor')
-			.collection('templateData');
+			.collection('templateImgData');
+
+		const templateVideosDataCollection = client
+			.db('videoEditor')
+			.collection('templateVideosData');
+
+		const usersCollection = client.db('videoEditor').collection('users');
 
 		app.get('/demoImages', async (req, res) => {
 			const result = await imagesCollection.find().toArray();
@@ -62,8 +68,26 @@ async function run() {
 			res.send(result);
 		});
 
-		app.get('/templateData', async (req, res) => {
-			const result = await templateCollection.find().toArray();
+		app.get('/templateImgData', async (req, res) => {
+			const result = await templateImgDataCollection.find().toArray();
+			res.send(result);
+		});
+
+		app.get('/templateVideosData', async (req, res) => {
+			const result = await templateVideosDataCollection.find().toArray();
+			res.send(result);
+		});
+
+		app.post('/users', async (req, res) => {
+			const user = req.body;
+
+			const query = { email: user.email };
+			const existingUser = await usersCollection.findOne(query);
+
+			if (existingUser) {
+				return res.send({ message: 'User is already exists' });
+			}
+			const result = await usersCollection.insertOne(user);
 			res.send(result);
 		});
 
@@ -83,18 +107,4 @@ app.listen(port, () => {
 	console.log(`online video editor server running on port${port}`);
 });
 
-
-
 // const usersCollection = client.db("photographDB").collection("users");
-// app.post('/users', async(req, res) => {
-//       const user = req.body;
-      
-//       const query = {email: user.email}
-//       const existingUser = await usersCollection.findOne(query);
-      
-//       if(existingUser){
-//         return res.send({message: "User is already exists"})
-//       }
-//       const result = await usersCollection.insertOne(user)
-//       res.send(result)
-//     })
