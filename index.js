@@ -63,7 +63,7 @@ async function run() {
 		});
 
 		app.get('/templateData', async (req, res) => {
-			const result = await templateCollectionCollection.find().toArray();
+			const result = await templateCollection.find().toArray();
 			res.send(result);
 		});
 
