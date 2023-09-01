@@ -15,11 +15,6 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
-//TODO: Warning data must be inserted mongodb. Here I implement use just demo
-const demoImagesData = require('./data/demoImagesData.json');
-const demoVideosData = require('./data/demoVideosData.json');
-const templateData = require('./data/templateData.json');
-
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.yg908g2.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
