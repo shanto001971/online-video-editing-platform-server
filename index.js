@@ -132,6 +132,12 @@ async function run() {
 			res.send(result);
 		});
 
+		// simple users getting api
+		app.get('/users', async (req, res) => {
+			const result = await usersCollection.find().toArray();
+			res.send(result);
+		});
+
 		app.get('/users', verifyJWT, verifyAdmin, async (req, res) => {
 			const result = await usersCollection.find().toArray();
 			res.send(result);
@@ -142,6 +148,7 @@ async function run() {
 			const email = req.params.email;
 			console.log(email);
 			const query = { email: email };
+			console.log(query);
 			if (req.decoded.email !== email) {
 				res.send({ admin: false });
 			}
