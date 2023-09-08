@@ -26,6 +26,11 @@ const client = new MongoClient(uri, {
 	},
 });
 
+//TODO: Warning data insert  on the mongodb
+const demoVideoTemplate = require('./data/templateVideosData.json');
+const demoImagesTemplate = require('./data/templateImagesData.json');
+const allTemplateData = require('./data/allTemplateData.json');
+
 app.get('/', (req, res) => {
 	res.send('Hello my dear Online video editor');
 });
@@ -85,6 +90,19 @@ async function run() {
 			const result = await usersCollection.insertOne(user);
 			res.send(result);
 		});
+
+		// TODO: Warning Data must be insert on mongodb
+		app.get('/demoVideoTemplate', (req, res) =>{
+			res.send(demoVideoTemplate);
+		})
+
+		app.get('/demoImagesTemplate', (req, res) =>{
+			res.send(demoImagesTemplate);
+		})
+
+		app.get('/allTemplateData', (req, res) =>{
+			res.send(allTemplateData);
+		})
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });

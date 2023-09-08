@@ -1,0 +1,934 @@
+[
+  {
+    "category": "Product Display",
+    "data": [
+      {
+        "_id": "64eb2bd31cd0caa6229297cf",
+        "category": "Product Display",
+        "img": "https://i.ibb.co/JqkQb2F/house1.webp",
+        "title": "Gray Minimalist Furniture Table Lamp Product Display",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Product Display", " Household"]
+      },
+      {
+        "_id": "64eb2bd305314d49c2f6dac4",
+        "category": "Product Display",
+        "img": "https://i.ibb.co/JcQ5QWC/product2.webp",
+        "title": "Beauty & Water Emulsion Product display",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Product Display", "beauty Product"]
+      },
+      {
+        "_id": "64eb2bd35d38029a09e6994c",
+        "category": "Product Display",
+        "img": "https://i.ibb.co/hZsCsgW/product3.webp",
+        "title": "Foods &Chocolate pie product promotion",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Product Display", "Food"]
+      },
+      {
+        "_id": "64eb2bd3812aa5c3cc897b85",
+        "category": "Product Display",
+        "img": "https://i.ibb.co/9WftXHm/product4.webp",
+        "title": "Pet& pet grooming",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Product Display", "Pets"]
+      },
+      {
+        "_id": "64eb2bd3a6f3ff54a49cfb40",
+        "category": "Product Display",
+        "img": "https://i.ibb.co/5LxBy1V/product5.webp",
+        "title": "Jewelry & Accessories",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Product Display", "Jewelry and accessories"]
+      },
+      {
+        "_id": "64eb2bd3301a51ed3c501b06",
+        "category": "Product Display",
+        "img": "https://i.ibb.co/KKp8bcW/product6.webp",
+        "title": "Office business Product",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Product Display", "Business"]
+      }
+    ]
+  },
+  {
+    "category": "Business",
+    "data": [
+      {
+        "_id": "64eb2bd3304c837da667c39f",
+        "category": "Business",
+        "img": "https://i.ibb.co/88h3vzN/busin1.webp",
+        "title": "Office business Social",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Business", "Social"]
+      },
+      {
+        "_id": "64eb2bd3933974df27b9d61c",
+        "category": "Business",
+        "img": "https://i.ibb.co/dcnhLvB/busin2.webp",
+        "title": "Financial & Insurance",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Business", "Financial & Insurance"]
+      },
+      {
+        "_id": "64eb2bd3c338040b353595ad",
+        "category": "Business",
+        "img": "https://i.ibb.co/P9jWN6h/busin3.webp",
+        "title": "Office business Social",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Business", "Social"]
+      },
+      {
+        "_id": "64eb2bd355631932d54f33a7",
+        "category": "Business",
+        "img": "https://i.ibb.co/cxpHn4J/busin4.webp",
+        "title": "Pet industry Social Cards",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Business", "Pet Industry"]
+      },
+      {
+        "_id": "64eb2bd32a7241251f5661cc",
+        "category": "Business",
+        "img": "https://i.ibb.co/NFWdd2k/busin5.webp",
+        "title": "Foods & Beverage Social",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Business", "Foods & Beverage"]
+      },
+      {
+        "_id": "64eb2bd3a1bd7aa07de513be",
+        "category": "Business",
+        "img": "https://i.ibb.co/LzQJw06/busin6.webp",
+        "title": "Clothing & Shoes Social",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Business", "Clothing & Shoes"]
+      }
+    ]
+  },
+  {
+    "category": "Beauty Care",
+    "data": [
+      {
+        "_id": "64eb2bd39aea05c1c3c824f5",
+        "category": "Beauty Care",
+        "img": "https://i.ibb.co/xjzfmKv/beauty1.webp",
+        "title": "Beauty & Personal care Sales Promotion",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Beauty Care", "Personal Care"]
+      },
+      {
+        "_id": "64eb2bd3f0b50742b31588f6",
+        "category": "Beauty Care",
+        "img": "https://i.ibb.co/m0p0stH/beauty2.webp",
+        "title": "Beauty & Personal care",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Beauty Care", "Personal Care"]
+      },
+      {
+        "_id": "64eb2bd337d6289f6b27a9ec",
+        "category": "Beauty Care",
+        "img": "https://i.ibb.co/yhK3wcF/beauty3.webp",
+        "title": "Beauty & Personal care Effect Display",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Beauty Care", "Beauty & Personal"]
+      },
+      {
+        "_id": "64eb2bd323d6b09019d35aa9",
+        "category": "Beauty Care",
+        "img": "https://i.ibb.co/8m9xLSZ/beauty4.webp",
+        "title": "Gentle cleanser beauty product",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Beauty Care", "Gentle Cleanser"]
+      },
+      {
+        "_id": "64eb2bd3435af4d130ab30f1",
+        "category": "Beauty Care",
+        "img": "https://i.ibb.co/RTBHjQq/beauty5.webp",
+        "title": "Gentle serum beauty product",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Beauty Care", "Gentle serum"]
+      },
+      {
+        "_id": "64eb2bd324c28c49e1de5e6d",
+        "category": "Beauty Care",
+        "img": "https://i.ibb.co/598HYDt/beauty6.webp",
+        "title": "Beauty & Personal care",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Beauty Care", "Personal care"]
+      }
+    ]
+  },
+  {
+    "category": "Foods & Beverage",
+    "data": [
+      {
+        "_id": "64eb2bd3cbb342e2912db6dc",
+        "category": "Foods & Beverage",
+        "img": "https://i.ibb.co/n88hgV5/food1.webp",
+        "title": "Foods &Pizza discount",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Foods & Beverage", "Discount"]
+      },
+      {
+        "_id": "64eb2bd3a96f1fffe5af62d3",
+        "category": "Foods & Beverage",
+        "img": "https://i.ibb.co/r4pMjnT/food2.webp",
+        "title": "Foods & Beverage layer cake",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Foods & Beverage", "Cake"]
+      },
+      {
+        "_id": "64eb2bd3bc2ba4cebd31b6dd",
+        "category": "Foods & Beverage",
+        "img": "https://i.ibb.co/x77b267/food3.webp",
+        "title": "Foods & Beverage vanila cake",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Foods & Beverage", "Cake"]
+      },
+      {
+        "_id": "64eb2bd3821f52616c33a90c",
+        "category": "Foods & Beverage",
+        "img": "https://i.ibb.co/yBRMFsr/food4.webp",
+        "title": "Foods & Beverage korean soup",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Foods & Beverage", "Korean Soup"]
+      },
+      {
+        "_id": "64eb2bd3b2380a63c02be25c",
+        "category": "Foods & Beverage",
+        "img": "https://i.ibb.co/R6xsKXH/food5.webp",
+        "title": "Foods & Beverage salad",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Foods & Beverage", "Salad"]
+      },
+      {
+        "_id": "64eb2bd3fb757b45d855c0ac",
+        "category": "Foods & Beverage",
+        "img": "https://i.ibb.co/1bVC6cc/food6.webp",
+        "title": "Foods & Beverage coffee",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Foods & Beverage", "Coffee"]
+      }
+    ]
+  },
+  {
+    "category": "Fashion Products",
+    "data": [
+      {
+        "_id": "64eb2bd3ebaf8475aec42e87",
+        "category": "Fashion Products",
+        "img": "https://i.ibb.co/wdVKPvS/cloth1.webp",
+        "title": "Fashion Denim Product Display Instagram Story",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Fashion Products", "Product Display"]
+      },
+      {
+        "_id": "64eb2bd33ce6ad9a6b846691",
+        "category": "Fashion Products",
+        "img": "https://i.ibb.co/w4TVdtW/cloth2.webp",
+        "title": "Clothing & Shoes &Sweater display",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Fashion Products", "Product Display"]
+      },
+      {
+        "_id": "64eb2bd303ca487b6c33cf14",
+        "category": "Fashion Products",
+        "img": "https://i.ibb.co/LzQJw06/busin6.webp",
+        "title": "Clothing Shoes Hats Skirts Product Display",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Fashion Products", "Product Display"]
+      },
+      {
+        "_id": "64eb2bd375c42078876e53f5",
+        "category": "Fashion Products",
+        "img": "https://i.ibb.co/pW2W5xH/cloth4.webp",
+        "title": "Clothing & Shoes skirt Discount Minimalist",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Fashion Products", "Product Display"]
+      },
+      {
+        "_id": "64eb2bd3db636cf11d921409",
+        "category": "Fashion Products",
+        "img": "https://i.ibb.co/gPSRKnk/cloth5.webp",
+        "title": "Clothing pajamas discounts Business",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Fashion Products", "Product Display"]
+      },
+      {
+        "_id": "64eb2bd306112d78fdeda454",
+        "category": "Fashion Products",
+        "img": "https://i.ibb.co/nMT30Sj/cloth6.webp",
+        "title": "Clothing & Men's clothing trousers show",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Fashion Products", "Product Display"]
+      }
+    ]
+  },
+  {
+    "category": "Household",
+    "data": [
+      {
+        "_id": "64eb2bd3666394ee221186e9",
+        "category": "Household",
+        "img": "https://i.ibb.co/JqkQb2F/house1.webp",
+        "title": "Gray Minimalist Furniture Table Lamp Product",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Household", "Product"]
+      },
+      {
+        "_id": "64eb2bd35ee1e71c3f572f63",
+        "category": "Household",
+        "img": "https://i.ibb.co/n0vrjr4/house2.webp",
+        "title": "Household Accessories Ceramic Sale Instagram",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Household", "Ceramic Sale"]
+      },
+      {
+        "_id": "64eb2bd4d88397ec7c05225d",
+        "category": "Household",
+        "img": "https://i.ibb.co/gwB3MCb/house3.webp",
+        "title": "Household&Home atmosphere Branding",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Household", "Branding"]
+      },
+      {
+        "_id": "64eb2bd4cfc87da84f70edf9",
+        "category": "Household",
+        "img": "https://i.ibb.co/WnNhKJC/house4.webp",
+        "title": "Home decor Effect",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Household", "Effect"]
+      },
+      {
+        "_id": "64eb2bd4eafd042aaed78378",
+        "category": "Household",
+        "img": "https://i.ibb.co/GvWx302/house5.webp",
+        "title": "Home decor Effect",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Household", "Medical"]
+      },
+      {
+        "_id": "64eb2bd436cf811bc274dcb1",
+        "category": "Household",
+        "img": "https://i.ibb.co/MpLJSLZ/house6.webp",
+        "title": "Home decor Product Display",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Household", "Product Display"]
+      }
+    ]
+  },
+  {
+    "category": "Electronic products",
+    "data": [
+      {
+        "_id": "64eb2bd44571274c53abba9a",
+        "category": "Electronic products",
+        "img": "https://i.ibb.co/rbgBtrw/ele1.webp",
+        "title": "Electronic intelligence Silent fan discounts trend",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Electronic products", "Discounts"]
+      },
+      {
+        "_id": "64eb2bd4d0168b336047ae0c",
+        "category": "Electronic products",
+        "img": "https://i.ibb.co/ThdySC6/ele2.webp",
+        "title": "Electronic products & Appliances Effect Display",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Electronic products", "Products Display"]
+      },
+      {
+        "_id": "64eb2bd4b339b750d41ff725",
+        "category": "Electronic products",
+        "img": "https://i.ibb.co/cvZ9K4Q/ele3.webp",
+        "title": "Electronic products & Appliances Sales",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Electronic products", "Appliances Sales"]
+      },
+      {
+        "_id": "64eb2bd4ae0cd4eec5279da8",
+        "category": "Electronic products",
+        "img": "https://i.ibb.co/Jmb8wbc/ele4.webp",
+        "title": "Electronic products & Appliances Sales washing",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Electronic products", "Washing"]
+      },
+      {
+        "_id": "64eb2bd4099c0de8e5e654de",
+        "category": "Electronic products",
+        "img": "https://i.ibb.co/XWg62f4/ele5.webp",
+        "title": "Electronic products & Appliances Sales keyboard",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Electronic products", "Sales keyboard"]
+      },
+      {
+        "_id": "64eb2bd47fb6107be4698ea2",
+        "category": "Electronic products",
+        "img": "https://i.ibb.co/9wwByxm/ele6.webp",
+        "title": "Electronic products & Appliances Sales tech product",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Electronic products", "Tech product"]
+      }
+    ]
+  },
+  {
+    "category": "Medical",
+    "data": [
+      {
+        "_id": "64eb2bd4655f6b82b96c6945",
+        "category": "Medical",
+        "img": "https://i.ibb.co/0CTzCDY/med1.webp",
+        "title": "Medical Psychological Counseling showcase",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Psychological Counseling", "Medical"]
+      },
+      {
+        "_id": "64eb2bd4ec34642a95fc28ce",
+        "category": "Medical",
+        "img": "https://i.ibb.co/XzVNS41/med2.webp",
+        "title": "Medical & Medications Product Display",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Medications", "Medical"]
+      },
+      {
+        "_id": "64eb2bd479829884fda57a56",
+        "category": "Medical",
+        "img": "https://i.ibb.co/x6L9vwX/med3.webp",
+        "title": "Medical & Medications Product Display and hospitality",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Product Display", "Medical"]
+      },
+      {
+        "_id": "64eb2bd4214ad602974cfe72",
+        "category": "Medical",
+        "img": "https://i.ibb.co/0Fc8fZL/med4.webp",
+        "title": "Medical & Medications Product and pharmacist",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Product and pharmacist", "Medical"]
+      },
+      {
+        "_id": "64eb2bd43ea7e80f8bc44b11",
+        "category": "Medical",
+        "img": "https://i.ibb.co/LPbxzrF/med5.webp",
+        "title": "Medical & Medications and focus health",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Health", "Medical"]
+      },
+      {
+        "_id": "64eb2bd4825aec7a6ac512a3",
+        "category": "Medical",
+        "img": "https://i.ibb.co/wJQTJ6p/med6.webp",
+        "title": "Medical & Medications Product service",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Product service", "Medical"]
+      }
+    ]
+  },
+  {
+    "category": "Education",
+    "data": [
+      {
+        "_id": "64eb2bd427cf255e34bafa62",
+        "category": "Education",
+        "img": "https://i.ibb.co/S7q2ZTR/edu1.webp",
+        "title": "Education and training Sales Promotion",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Sales Promotion", "Education"]
+      },
+      {
+        "_id": "64eb2bd4030a09a29ea4fb87",
+        "category": "Education",
+        "img": "https://i.ibb.co/FBFyt7Q/edu2.webp",
+        "title": "Education and training Product Display",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Product Display", "Education"]
+      },
+      {
+        "_id": "64eb2bd4312e54c128b69293",
+        "category": "Education",
+        "img": "https://i.ibb.co/Sm7hp1j/edu3.webp",
+        "title": "Education and training self learning",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Self learning", "Education"]
+      },
+      {
+        "_id": "64eb2bd4836e010719f199d7",
+        "category": "Education",
+        "img": "https://i.ibb.co/MhwtzvN/edu4.webp",
+        "title": "Education and training online classes",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Online classes", "Education"]
+      },
+      {
+        "_id": "64eb2bd42ffcfefb2275bb39",
+        "category": "Education",
+        "img": "https://i.ibb.co/chFDCQD/edu5.webp",
+        "title": "Education and training online learning",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Online learning", "Education"]
+      },
+      {
+        "_id": "64eb2bd4cba6e78a136e17bd",
+        "category": "Education",
+        "img": "https://i.ibb.co/rch6K0x/edu6.webp",
+        "title": "Education and training Product free trial",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Product", "Education"]
+      }
+    ]
+  },
+  {
+    "category": "Travel",
+    "data": [
+      {
+        "_id": "64eb2bd407da1913d0c33d51",
+        "category": "Travel",
+        "img": "https://i.ibb.co/cwxVZnp/travel1.webp",
+        "title": "Travel&Guide Service for Business with....",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Travel&Guide", "Travel"]
+      },
+      {
+        "_id": "64eb2bd4dd050e16b7924834",
+        "category": "Travel",
+        "img": "https://i.ibb.co/wLT9gBv/travel2.webp",
+        "title": "Travel seaside trip showcase Simplicity",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Seaside", "Travel"]
+      },
+      {
+        "_id": "64eb2bd40b14a5fab118909a",
+        "category": "Travel",
+        "img": "https://i.ibb.co/6DYfM7t/travel3.webp",
+        "title": "Travel Activity Minimalist",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Minimalist", "Travel"]
+      },
+      {
+        "_id": "64eb2bd4fdfb20be5fadd05d",
+        "category": "Travel",
+        "img": "https://i.ibb.co/zXZv4wd/travel4.webp",
+        "title": "travel promotion sea nature simple",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Sea nature", "Travel"]
+      },
+      {
+        "_id": "64eb2bd4b111e394a751f6f4",
+        "category": "Travel",
+        "img": "https://i.ibb.co/4RzNt0n/travel5.webp",
+        "title": "Travel & Branding",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Branding", "Travel"]
+      },
+      {
+        "_id": "64eb2bd43939e03f80971a71",
+        "category": "Travel",
+        "img": "https://i.ibb.co/pxhtmzC/travel6.webp",
+        "title": "Travel Luggage delivery Showcase business",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["usiness", "Travel"]
+      }
+    ]
+  },
+  {
+    "category": "Jewelry and accessories",
+    "data": [
+      {
+        "_id": "64eb2bd4944623ec8a99b813",
+        "category": "Jewelry and accessories",
+        "img": "https://i.ibb.co/jhQq6Hr/acc1.webp",
+        "title": "Jewelry & Accessories Watches display Minimalist",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Watches", "Jewelry and accessories"]
+      },
+      {
+        "_id": "64eb2bd4fb310f5b8b4c5bce",
+        "category": "Jewelry and accessories",
+        "img": "https://i.ibb.co/CPgmmYp/acc2.webp",
+        "title": "Jewelry & Accessories&Rings display Minimalist",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Product Display", "Jewelry and accessories"]
+      },
+      {
+        "_id": "64eb2bd4f75c15653b412e80",
+        "category": "Jewelry and accessories",
+        "img": "https://i.ibb.co/t3s30bh/acc3.webp",
+        "title": "Jewelry Accessories Fashion Sunglasses Effect Display",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Sunglasses", "Jewelry and accessories"]
+      },
+      {
+        "_id": "64eb2bd4cb11a6e59d91e2a7",
+        "category": "Jewelry and accessories",
+        "img": "https://i.ibb.co/rHcbzpx/acc4.webp",
+        "title": "Jewelry & Accessories Rings discounts Romantic",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Rings", "Jewelry and accessories"]
+      },
+      {
+        "_id": "64eb2bd472b1db60aae9dc77",
+        "category": "Jewelry and accessories",
+        "img": "https://i.ibb.co/ZmDTrQC/acc5.webp",
+        "title": "Jewelry & Accessories bracelet",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Bracelet", "Jewelry and accessories"]
+      },
+      {
+        "_id": "64eb2bd4644e8fd2592e1421",
+        "category": "Jewelry and accessories",
+        "img": "https://i.ibb.co/6n4bLZy/acc6.webp",
+        "title": "Jewelry & Accessories Product",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Product Display", "Jewelry and accessories"]
+      }
+    ]
+  },
+  {
+    "category": "Pets",
+    "data": [
+      {
+        "_id": "64eb2bd4a4c3932ffee6a337",
+        "category": "Pets",
+        "img": "https://i.ibb.co/wdcDsRS/pet1.webp",
+        "title": "Pet Collar Discount Minimalist",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Discount", "Pets"]
+      },
+      {
+        "_id": "64eb2bd40f9afdcf5103195e",
+        "category": "Pets",
+        "img": "https://i.ibb.co/tLgrZJL/pet2.webp",
+        "title": "Pet parrot food Description",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Food", "Pets"]
+      },
+      {
+        "_id": "64eb2bd46a613cddac204946",
+        "category": "Pets",
+        "img": "https://i.ibb.co/BTRmGpf/pet3.webp",
+        "title": "Pet Grooming Description discounts Cute Style",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Pet Grooming", "Pets"]
+      },
+      {
+        "_id": "64eb2bd4dc07b2c07444db6d",
+        "category": "Pets",
+        "img": "https://i.ibb.co/PCg1w1C/pet4.webp",
+        "title": "Pet industry Effect Display",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Industry", "Pets"]
+      },
+      {
+        "_id": "64eb2bd4eed6eb1e883610f8",
+        "category": "Pets",
+        "img": "https://i.ibb.co/ZBxvnGS/pet5.webp",
+        "title": "Pet industry Product Display",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Product Display", "Pets"]
+      },
+      {
+        "_id": "64eb2bd4df1ae19da0108e50",
+        "category": "Pets",
+        "img": "https://i.ibb.co/M10MQZf/pet6.webp",
+        "title": "Pet industry Product Display",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Sales Promotion", "Pets"]
+      }
+    ]
+  },
+  {
+    "category": "Workout and fitness",
+    "data": [
+      {
+        "_id": "64eb2bd4586a0dd0d3fccf77",
+        "category": "Workout and fitness",
+        "img": "https://i.ibb.co/Hpk4rmZ/work1.webp",
+        "title": "Workout & Fitness Backpacks",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Backpacks", "Workout and fitness"]
+      },
+      {
+        "_id": "64eb2bd4ea3a7e81292d87a7",
+        "category": "Workout and fitness",
+        "img": "https://i.ibb.co/JvW2kBT/work2.webp",
+        "title": "Workout & Fitness Jump Rope Display Minimalist",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Product Display", "Workout and fitness"]
+      },
+      {
+        "_id": "64eb2bd4e05b67b932be2afa",
+        "category": "Workout and fitness",
+        "img": "https://i.ibb.co/2KT9hcn/work3.webp",
+        "title": "Workout & Fitness Kettlebell Commercial use Sport",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Commercial", "Workout and fitness"]
+      },
+      {
+        "_id": "64eb2bd49f149c888ef8d196",
+        "category": "Workout and fitness",
+        "img": "https://i.ibb.co/Gd4Z1kv/work4.webp",
+        "title": "Workout & Fitness Effect",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Fitness Effect", "Workout and fitness"]
+      },
+      {
+        "_id": "64eb2bd484342736ee610348",
+        "category": "Workout and fitness",
+        "img": "https://i.ibb.co/HPJxkwM/work5.webp",
+        "title": "Workout & Fitness Product",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Display Product", "Workout and fitness"]
+      },
+      {
+        "_id": "64eb2bd48f7ead959532294f",
+        "category": "Workout and fitness",
+        "img": "https://i.ibb.co/P6kzp9X/work6.webp",
+        "title": "Workout & Fitness Product",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Display Product", "Workout and fitness"]
+      }
+    ]
+  },
+  {
+    "category": "Cars",
+    "data": [
+      {
+        "_id": "64eb2bd414de9738ee8be26f",
+        "category": "Cars",
+        "img": "https://i.ibb.co/pPb0vRJ/car1.webp",
+        "title": "Cars & Auto parts Effect Display",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Auto parts", "Cars"]
+      },
+      {
+        "_id": "64eb2bd453af96ce4db1860d",
+        "category": "Cars",
+        "img": "https://i.ibb.co/sgq1yvV/car2.webp",
+        "title": "Cars & Auto parts Product",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Product Display", "Cars"]
+      },
+      {
+        "_id": "64eb2bd4028120b2af842958",
+        "category": "Cars",
+        "img": "https://i.ibb.co/yRmtmzR/car3.webp",
+        "title": "Cars & Auto parts Sales",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Sales", "Cars"]
+      },
+      {
+        "_id": "64eb2bd4c244d68a33272212",
+        "category": "Cars",
+        "img": "https://i.ibb.co/WsM7dDw/car4.webp",
+        "title": "Cars & Auto parts Sales",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Business", "Giphys"]
+      },
+      {
+        "_id": "64eb2bd419a4227b17da0d8c",
+        "category": "Cars",
+        "img": "https://i.ibb.co/z7cmHht/car5.webp",
+        "title": "Cars & Auto parts Social",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Social", "Cars"]
+      },
+      {
+        "_id": "64eb2bd4cd08d9e0f156b4cf",
+        "category": "Cars",
+        "img": "https://i.ibb.co/p2v7YFG/car6.webp",
+        "title": "Cars & Auto parts Effect Display",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Business", "Cars"]
+      }
+    ]
+  },
+  {
+    "category": "Giphys",
+    "data": [
+      {
+        "_id": "64eec63854841d7f88990cdc",
+        "img": "https://media.giphy.com/media/X1yAwJIxFSSRo6jsha/giphy.gif",
+        "title": "Demo template giphy",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Dancing", "Giphys"]
+      },
+      {
+        "_id": "64eec638668b4abfe418f10b",
+        "img": "https://media.giphy.com/media/l2JdUEzJF1A4z46Aw/giphy.gif",
+        "title": "Meme giphy cartoons",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Cartoon", "Giphys"]
+      },
+      {
+        "_id": "64eec63888844a5f3343d227",
+        "img": "https://media.giphy.com/media/Ufbs1Vux9TiqQOQOlX/giphy.gif",
+        "title": "Template giphy sticker",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Sticker", "Giphys"]
+      },
+      {
+        "_id": "64eec6386ef6fd2fe1f95418",
+        "img": "https://media.giphy.com/media/1AjQCWKP4OJJK9Rfp4/giphy.gif",
+        "title": "Funny woman waring glass giphy",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Funny", "Giphys"]
+      },
+      {
+        "_id": "64eec638714d75b12d86dd8c",
+        "img": "https://media.giphy.com/media/qvtu288OTHk6ld5D02/giphy.gif",
+        "title": "Funny man with glass giphy",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Funny", "Giphys"]
+      },
+      {
+        "_id": "64eec6383eae2c9832a2d7f8",
+        "img": "https://media.giphy.com/media/L3dMnYe3tmLeOJgIhJ/giphy.gif",
+        "title": "Funny woman talk giphy",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Funny", "Giphys"]
+      }
+    ]
+  },
+  {
+    "category": "Stickers",
+    "data": [
+      {
+        "_id": "64eec63832c4afec1fe73c4d",
+        "img": "https://i.ibb.co/Bj4zmfG/sticker1.jpg",
+        "title": "Positivity vibes stickers",
+        "author": "Francesco Morrone",
+        "img_url": "https://i.ibb.co/pZQdNJt/author7.jpg",
+        "description": ["Funny", "Stickers"]
+      },
+      {
+        "_id": "64eec6388288d9e46ffd2579",
+        "img": "https://i.ibb.co/r4SdSmY/sticker2.jpg",
+        "title": "Positivity vibes with radiate",
+        "author": "Nino Souza",
+        "img_url": "https://i.ibb.co/0MsmZ23/author3.jpg",
+        "description": ["Funny", "Stickers"]
+      },
+      {
+        "_id": "64eec6389ad8c30686590741",
+        "img": "https://i.ibb.co/hcqBGND/sticker3.jpg",
+        "title": "Funny car stickers",
+        "author": "Abhishek Tanwar",
+        "img_url": "https://i.ibb.co/pWw57tp/author6.jpg",
+        "description": ["Funny", "Stickers"]
+      },
+      {
+        "_id": "64eec63883b4ac74daa88474",
+        "img": "https://i.ibb.co/MMJNCQ5/sticker4.jpg",
+        "title": "Rainbow vibes stickers",
+        "author": "Artem Podrez",
+        "img_url": "https://i.ibb.co/k4Z3K0k/author5.jpg",
+        "description": ["Funny", "Stickers"]
+      },
+      {
+        "_id": "64eec638f8f8f1e681be3764",
+        "img": "https://i.ibb.co/NWjgwrt/sticker5.jpg",
+        "title": "Funny panda cooking",
+        "author": "Tima Miroshnichenko",
+        "img_url": "https://i.ibb.co/qrQDnWs/author2.jpg",
+        "description": ["Funny", "Stickers"]
+      },
+      {
+        "_id": "64eec638c34ddcd84d2be07a",
+        "img": "https://i.ibb.co/7XDJ4sV/sticker6.jpg",
+        "title": "Jar of flowers stickers",
+        "author": "Gigi Galliard",
+        "img_url": "https://i.ibb.co/qFxGzX3/author4.jpg",
+        "description": ["Funny", "Stickers"]
+      }
+    ]
+  }
+]
