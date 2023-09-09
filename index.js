@@ -49,6 +49,11 @@ const client = new MongoClient(uri, {
 	},
 });
 
+//TODO: Warning data insert  on the mongodb
+const demoVideoTemplate = require('./data/templateVideosData.json');
+const demoImagesTemplate = require('./data/templateImagesData.json');
+const allTemplateData = require('./data/allTemplateData.json');
+
 app.get('/', (req, res) => {
 	res.send('Hello my dear Online video editor');
 });
@@ -129,52 +134,6 @@ async function run() {
 				return res.send({ message: 'User is already exists' });
 			}
 			const result = await usersCollection.insertOne(user);
-			res.send(result);
-		});
-
-		// simple users getting api
-		app.get('/users', async (req, res) => {
-			const result = await usersCollection.find().toArray();
-			res.send(result);
-		});
-
-		app.get('/users', verifyJWT, verifyAdmin, async (req, res) => {
-			const result = await usersCollection.find().toArray();
-			res.send(result);
-		});
-
-		// users admin email
-		app.get('/users/admin/:email', verifyJWT, async (req, res) => {
-			const email = req.params.email;
-			console.log(email);
-			const query = { email: email };
-			console.log(query);
-			if (req.decoded.email !== email) {
-				res.send({ admin: false });
-			}
-			const user = await usersCollection.findOne(query);
-			const result = { admin: user?.role === 'admin' };
-			res.send(result);
-		});
-
-		// users admin patch request api
-		app.patch('/users/admin/:id', async (req, res) => {
-			const id = req.params.id;
-			const filter = { _id: new ObjectId(id) };
-			const updateDoc = {
-				$set: {
-					role: 'admin',
-				},
-			};
-			const result = await usersCollection.updateOne(filter, updateDoc);
-			res.send(result);
-		});
-
-		// user delete api
-		app.delete('/users/:id', async (req, res) => {
-			const id = req.params.id;
-			const query = { _id: new ObjectId(id) };
-			const result = await usersCollection.deleteOne(query);
 			res.send(result);
 		});
 
