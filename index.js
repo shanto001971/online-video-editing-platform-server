@@ -81,7 +81,7 @@ async function run() {
 
 		const usersCollection = client.db('videoEditor').collection('users');
 
-		// jwt token
+		// jwt token 
 		app.post('/jwt', (req, res) => {
 			const user = req.body;
 			const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
@@ -90,7 +90,7 @@ async function run() {
 			res.send({ token });
 		});
 
-		// verifyAdmin
+		// verifyAdmin 
 		const verifyAdmin = async (req, res, next) => {
 			const email = req.decoded.email;
 			const query = { email: email };
@@ -123,7 +123,8 @@ async function run() {
 			res.send(result);
 		});
 
-		// users api started here
+		// users api started here 
+
 		app.post('/users', async (req, res) => {
 			const user = req.body;
 
@@ -136,6 +137,13 @@ async function run() {
 			const result = await usersCollection.insertOne(user);
 			res.send(result);
 		});
+
+		app.get('/users', async(req, res) => {
+			const result = await usersCollection.find().toArray();
+			res.send(result);
+		})
+
+		// users api ended here 
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
