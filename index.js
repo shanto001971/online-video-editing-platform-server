@@ -97,7 +97,7 @@ async function run() {
 			const user = await usersCollection.findOne(query);
 			if (user?.role !== 'admin') {
 				return res
-					.status(401)
+					.status(403)
 					.send({ error: true, message: 'forbidden message' });
 			}
 			next();
@@ -130,7 +130,7 @@ async function run() {
 
 			const query = { email: user.email };
 			const existingUser = await usersCollection.findOne(query);
-
+			
 			if (existingUser) {
 				return res.send({ message: 'User is already exists' });
 			}
@@ -138,12 +138,41 @@ async function run() {
 			res.send(result);
 		});
 
-		app.get('/users', async(req, res) => {
+		app.get('/users', verifyJWT, verifyAdmin, async(req, res) => {
 			const result = await usersCollection.find().toArray();
 			res.send(result);
 		})
 
 		// users api ended here 
+
+		// make admin api
+		app.patch('/users/admin/:id', async(req, res) => {
+			const id = req.params.id;
+			const query = {_id: new ObjectId(id)}
+			const updateDoc = {
+			  $set: {
+				role: 'admin'
+			  }
+			}
+			const result = await usersCollection.updateOne(query, updateDoc)
+			res.send(result)
+		  })
+
+
+		// testing ================================
+		app.get('/users/admin/:email', verifyJWT, async(req, res) => {
+			const email = req.params.email;
+			const decodedEmail =  req.decoded.email;
+			if(email !== decodedEmail){
+			res.send({admin: false})
+			}
+			const query = {email: email};
+			const user = await usersCollection.findOne(query);
+			res.send({admin: user?.role === "admin"})
+		})
+
+
+	  
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
