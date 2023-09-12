@@ -180,6 +180,26 @@ async function run() {
 			res.send(result);
 		})
 
+		// Admin statistics for dashborad
+		app.get('/admin-stats', verifyJWT, verifyAdmin, async(req, res) => {
+			const users = await usersCollection.estimatedDocumentCount();
+			const videos = await videosCollection.estimatedDocumentCount();
+			const images = await imagesCollection.estimatedDocumentCount();
+
+			// if user paid info is saved into the database
+			// const payments = await paymentsCollection.find().toArray();
+			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
+
+
+			res.send({
+				users,
+				videos,
+				images,
+				// revenue
+			})
+		})
+		
+
 
 	  
 
