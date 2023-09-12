@@ -80,6 +80,8 @@ async function run() {
 			.collection('templateVideosData');
 
 		const usersCollection = client.db('videoEditor').collection('users');
+		const feedbackCollection = client.db('videoEditor').collection('feedback');
+
 
 		// jwt token 
 		app.post('/jwt', (req, res) => {
@@ -90,7 +92,7 @@ async function run() {
 			res.send({ token });
 		});
 
-		// verifyAdmin 
+		// verifyAdmin (middleware)
 		const verifyAdmin = async (req, res, next) => {
 			const email = req.decoded.email;
 			const query = { email: email };
@@ -183,7 +185,7 @@ async function run() {
 		  })
 
 
-		// testing ================================
+		// verify admin 
 		app.get('/users/admin/:email', verifyJWT, async(req, res) => {
 			const email = req.params.email;
 			const decodedEmail =  req.decoded.email;
@@ -194,6 +196,33 @@ async function run() {
 			const user = await usersCollection.findOne(query);
 			res.send({admin: user?.role === "admin"})
 		})
+
+		// user feedback api
+		app.post('/feedback', async(req, res) => {
+			const feedback = req.body;
+			const result = await feedbackCollection.insertOne(feedback);
+			res.send(result);
+		})
+
+		// Admin statistics for dashborad
+		app.get('/admin-stats', verifyJWT, verifyAdmin, async(req, res) => {
+			const users = await usersCollection.estimatedDocumentCount();
+			const videos = await videosCollection.estimatedDocumentCount();
+			const images = await imagesCollection.estimatedDocumentCount();
+
+			// if user paid info is saved into the database
+			// const payments = await paymentsCollection.find().toArray();
+			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
+
+
+			res.send({
+				users,
+				videos,
+				images,
+				// revenue
+			})
+		})
+		
 
 
 	  
