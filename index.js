@@ -123,6 +123,17 @@ async function run() {
 			res.send(result);
 		});
 
+		//TODO: Warning data insert  on the mongodb
+		app.get('/demoVideoTemplate', async (req, res) => {
+			res.send(demoVideoTemplate);
+		});
+		app.get('/demoImagesTemplate', async (req, res) => {
+			res.send(demoImagesTemplate);
+		});
+		app.get('/allTemplateData', async (req, res) => {
+			res.send(allTemplateData);
+		});
+
 		// users api started here 
 
 		app.post('/users', async (req, res) => {
@@ -142,6 +153,19 @@ async function run() {
 			const result = await usersCollection.find().toArray();
 			res.send(result);
 		})
+
+	//Update user by email in DB
+    app.put("/users/:email", async (req, res) => {
+      const email = req.params.email;
+      const user = req.body;
+      const query = { email: email };
+      const options = { upsert: true };
+      const updateDoc = {
+        $set: user,
+      };
+      const result = await usersCollection.updateOne(query, updateDoc, options);
+      res.send(result);
+    });
 
 		// users api ended here 
 
