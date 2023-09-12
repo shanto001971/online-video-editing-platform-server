@@ -123,6 +123,17 @@ async function run() {
 			res.send(result);
 		});
 
+		//TODO: Warning data insert  on the mongodb
+		app.get('/demoVideoTemplate', async (req, res) => {
+			res.send(demoVideoTemplate);
+		});
+		app.get('/demoImagesTemplate', async (req, res) => {
+			res.send(demoImagesTemplate);
+		});
+		app.get('/allTemplateData', async (req, res) => {
+			res.send(allTemplateData);
+		});
+
 		// users api started here 
 
 		app.post('/users', async (req, res) => {
