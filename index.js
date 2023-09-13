@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
-const SSLCommerzPayment = require('sslcommerz-lts');
 require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 5000;
@@ -115,68 +114,6 @@ async function run() {
 			const result = await videosCollection.find().toArray();
 			res.send(result);
 		});
-		// Warning data insert  on the mongodb
-		app.get('/demoVideoTemplate', async (req, res) => {
-			const result = await demoVideoTemplate.find().toArray();
-			res.send(result);
-		});
-		app.get('/demoImagesTemplate', async (req, res) => {
-			const result = await demoImagesTemplate.find().toArray();
-			res.send(result);
-		});
-		app.get('/allTemplateData', async (req, res) => {
-			const result = await allTemplateData.find().toArray();
-			res.send(result);
-		});
-
-		// Payment methods api is here
-		// const tran_id = new ObjectId().toString();
-		// app.post('/payments', async (req, res) => {
-		// 	const value = req.body;
-		// 	const price = value.price;
-		// 	const data = {
-		// 		total_amount: price,
-		// 		currency: 'BDT',
-		// 		tran_id: tran_id, // use unique tran_id for each api call
-		// 		success_url: 'http://localhost:3030/success',
-		// 		fail_url: 'http://localhost:3030/fail',
-		// 		cancel_url: 'http://localhost:3030/cancel',
-		// 		ipn_url: 'http://localhost:3030/ipn',
-		// 		shipping_method: 'Courier',
-		// 		product_name: 'Computer.',
-		// 		product_category: 'Electronic',
-		// 		product_profile: 'general',
-		// 		cus_name: 'Customer Name',
-		// 		cus_email: 'customer@example.com',
-		// 		cus_add1: 'Dhaka',
-		// 		cus_add2: 'Dhaka',
-		// 		cus_city: 'Dhaka',
-		// 		cus_state: 'Dhaka',
-		// 		cus_postcode: '1000',
-		// 		cus_country: 'Bangladesh',
-		// 		cus_phone: '01711111111',
-		// 		cus_fax: '01711111111',
-		// 		ship_name: 'Customer Name',
-		// 		ship_add1: 'Dhaka',
-		// 		ship_add2: 'Dhaka',
-		// 		ship_city: 'Dhaka',
-		// 		ship_state: 'Dhaka',
-		// 		ship_postcode: 1000,
-		// 		ship_country: 'Bangladesh',
-		// 	};
-		// 	console.log(data);
-		// 	const sslcz = new SSLCommerzPayment(
-		// 		store_id,
-		// 		store_passwd,
-		// 		is_live
-		// 	);
-		// 	sslcz.init(data).then((apiResponse) => {
-		// 		// Redirect the user to payment gateway
-		// 		let GatewayPageURL = apiResponse.GatewayPageURL;
-		// 		res.send({ url: GatewayPageURL });
-		// 		console.log('Redirecting to: ', GatewayPageURL);
-		// 	});
-		// });
 
 		app.get('/templateImgData', async (req, res) => {
 			const result = await templateImgDataCollection.find().toArray();
@@ -186,6 +123,17 @@ async function run() {
 		app.get('/templateVideosData', async (req, res) => {
 			const result = await templateVideosDataCollection.find().toArray();
 			res.send(result);
+		});
+
+		//TODO: Warning data insert  on the mongodb
+		app.get('/demoVideoTemplate', async (req, res) => {
+			res.send(demoVideoTemplate);
+		});
+		app.get('/demoImagesTemplate', async (req, res) => {
+			res.send(demoImagesTemplate);
+		});
+		app.get('/allTemplateData', async (req, res) => {
+			res.send(allTemplateData);
 		});
 
 		// users api started here 
@@ -207,6 +155,19 @@ async function run() {
 			const result = await usersCollection.find().toArray();
 			res.send(result);
 		})
+
+	//Update user by email in DB
+    app.put("/users/:email", async (req, res) => {
+      const email = req.params.email;
+      const user = req.body;
+      const query = { email: email };
+      const options = { upsert: true };
+      const updateDoc = {
+        $set: user,
+      };
+      const result = await usersCollection.updateOne(query, updateDoc, options);
+      res.send(result);
+    });
 
 		// users api ended here 
 
@@ -236,20 +197,15 @@ async function run() {
 			res.send({admin: user?.role === "admin"})
 		})
 
-		// user feedback apis
+		// user feedback api
 		app.post('/feedback', async(req, res) => {
 			const feedback = req.body;
 			const result = await feedbackCollection.insertOne(feedback);
 			res.send(result);
 		})
 
-		app.get('/feedback', async(req, res) => {
-			const result = await feedbackCollection.find().toArray();
-			res.send(result);
-		})
-
-		// Admin statistics for dashborad ( verifyJWT, verifyAdmin,)
-		app.get('/admin-stats', async(req, res) => {
+		// Admin statistics for dashborad
+		app.get('/admin-stats', verifyJWT, verifyAdmin, async(req, res) => {
 			const users = await usersCollection.estimatedDocumentCount();
 			const videos = await videosCollection.estimatedDocumentCount();
 			const images = await imagesCollection.estimatedDocumentCount();
@@ -265,26 +221,6 @@ async function run() {
 				images,
 				// revenue
 			})
-		})
-		
-		// Admin chart for dashborad ( verifyJWT, verifyAdmin,)
-		app.get('/admin-chart', async(req, res) => {
-			const users = await usersCollection.estimatedDocumentCount();
-			const videos = await videosCollection.estimatedDocumentCount();
-			const images = await imagesCollection.estimatedDocumentCount();
-
-			// if user paid info is saved into the database
-			// const payments = await paymentsCollection.find().toArray();
-			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
-			
-			const dataChart = [
-				users,
-				videos,
-				images,
-				// revenue
-			  ];
-
-			res.send(dataChart)
 		})
 		
 
