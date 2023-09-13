@@ -49,6 +49,10 @@ const client = new MongoClient(uri, {
 	},
 });
 
+const store_id = process.env.STORE_ID;
+const store_passwd = process.env.STORE_PASSWORD;
+const is_live = false;
+
 app.get('/', (req, res) => {
 	res.send('Hello my dear Online video editor');
 });
@@ -103,8 +107,12 @@ async function run() {
 			res.send(result);
 		});
 
-		// users api started here
+		// Payment methods api is here
+		app.post('/payments', async (req, res) => {
+			console.log(req.body);
+		});
 
+		// users api started here
 		app.post('/users', async (req, res) => {
 			const user = req.body;
 
