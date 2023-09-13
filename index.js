@@ -81,6 +81,7 @@ async function run() {
 
 		const usersCollection = client.db('videoEditor').collection('users');
 		const feedbackCollection = client.db('videoEditor').collection('feedback');
+		const candidateCollection = client.db('videoEditor').collection('candidates');
 
 
 		// jwt token 
@@ -195,6 +196,20 @@ async function run() {
 			const query = {email: email};
 			const user = await usersCollection.findOne(query);
 			res.send({admin: user?.role === "admin"})
+		})
+
+		// job candidate api
+		app.get('/jobPost', async (req, res) => {
+			const result = await candidateCollection.find().toArray();
+			res.send(result);
+		});
+		
+		app.post('/jobPost', async(req, res) => {
+			const application = req.body;
+			const result = await candidateCollection.insertOne(application);
+			return console.log(result);
+
+			res.send(result);
 		})
 
 		// user feedback api
