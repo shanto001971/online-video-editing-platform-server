@@ -173,15 +173,20 @@ async function run() {
 			res.send({admin: user?.role === "admin"})
 		})
 
-		// user feedback api
+		// user feedback apis
 		app.post('/feedback', async(req, res) => {
 			const feedback = req.body;
 			const result = await feedbackCollection.insertOne(feedback);
 			res.send(result);
 		})
 
-		// Admin statistics for dashborad
-		app.get('/admin-stats', verifyJWT, verifyAdmin, async(req, res) => {
+		app.get('/feedback', async(req, res) => {
+			const result = await feedbackCollection.find().toArray();
+			res.send(result);
+		})
+
+		// Admin statistics for dashborad ( verifyJWT, verifyAdmin,)
+		app.get('/admin-stats', async(req, res) => {
 			const users = await usersCollection.estimatedDocumentCount();
 			const videos = await videosCollection.estimatedDocumentCount();
 			const images = await imagesCollection.estimatedDocumentCount();
@@ -197,6 +202,26 @@ async function run() {
 				images,
 				// revenue
 			})
+		})
+		
+		// Admin chart for dashborad ( verifyJWT, verifyAdmin,)
+		app.get('/admin-chart', async(req, res) => {
+			const users = await usersCollection.estimatedDocumentCount();
+			const videos = await videosCollection.estimatedDocumentCount();
+			const images = await imagesCollection.estimatedDocumentCount();
+
+			// if user paid info is saved into the database
+			// const payments = await paymentsCollection.find().toArray();
+			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
+			
+			const dataChart = [
+				users,
+				videos,
+				images,
+				// revenue
+			  ];
+
+			res.send(dataChart)
 		})
 		
 
