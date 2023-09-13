@@ -50,6 +50,7 @@ const client = new MongoClient(uri, {
 	},
 });
 
+// this is the payment request method that is used to send payments
 // const store_id = process.env.STORE_ID;
 // const store_passwd = process.env.STORE_PASSWORD;
 // const is_live = false;
