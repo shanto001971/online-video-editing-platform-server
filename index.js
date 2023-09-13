@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
+// const SSLCommerzPayment = require('sslcommerz-lts');
 require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 5000;
@@ -49,10 +50,9 @@ const client = new MongoClient(uri, {
 	},
 });
 
-//TODO: Warning data insert  on the mongodb
-const demoVideoTemplate = require('./data/templateVideosData.json');
-const demoImagesTemplate = require('./data/templateImagesData.json');
-const allTemplateData = require('./data/allTemplateData.json');
+// const store_id = process.env.STORE_ID;
+// const store_passwd = process.env.STORE_PASSWORD;
+// const is_live = false;
 
 app.get('/', (req, res) => {
 	res.send('Hello my dear Online video editor');
