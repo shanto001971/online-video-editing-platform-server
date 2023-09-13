@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
-//const SSLCommerzPayment = require('sslcommerz-lts');
 require('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 5000;
@@ -50,10 +49,10 @@ const client = new MongoClient(uri, {
 	},
 });
 
-//TODO: Warning data insert  on the mongodb
-// const demoVideoTemplate = require('./data/templateVideosData.json');
-// const demoImagesTemplate = require('./data/templateImagesData.json');
-// const allTemplateData = require('./data/allTemplateData.json');
+// this is the payment request method that is used to send payments
+// const store_id = process.env.STORE_ID;
+// const store_passwd = process.env.STORE_PASSWORD;
+// const is_live = false;
 
 app.get('/', (req, res) => {
 	res.send('Hello my dear Online video editor');
@@ -64,27 +63,16 @@ async function run() {
 		// Connect the client to the server	(optional starting in v4.7)
 		// await client.connect();
 
-		const imagesCollection = client
-			.db('videoEditor')
-			.collection('demoImgData');
+		const db = client.db('videoEditor');
 
-		const videosCollection = client
-			.db('videoEditor')
-			.collection('demoVideoData');
+		const demoVideoTemplate = db.collection('templateVideosData');
+		const demoImagesTemplate = db.collection('templateImagesData');
+		const allTemplateData = db.collection('allTemplateData');
 
-		const templateImgDataCollection = client
-			.db('videoEditor')
-			.collection('templateImgData');
+		const usersCollection = db.collection('users');
+		const feedbackCollection = db.collection('feedback');
 
-		const templateVideosDataCollection = client
-			.db('videoEditor')
-			.collection('templateVideosData');
-
-		const usersCollection = client.db('videoEditor').collection('users');
-		const feedbackCollection = client.db('videoEditor').collection('feedback');
-
-
-		// jwt token 
+		// jwt token
 		app.post('/jwt', (req, res) => {
 			const user = req.body;
 			const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
@@ -106,15 +94,6 @@ async function run() {
 			next();
 		};
 
-		app.get('/demoImages', async (req, res) => {
-			const result = await imagesCollection.find().toArray();
-			res.send(result);
-		});
-
-		app.get('/demoVideos', async (req, res) => {
-			const result = await videosCollection.find().toArray();
-			res.send(result);
-		});
 		// Warning data insert  on the mongodb
 		app.get('/demoVideoTemplate', async (req, res) => {
 			const result = await demoVideoTemplate.find().toArray();
@@ -178,24 +157,13 @@ async function run() {
 		// 	});
 		// });
 
-		app.get('/templateImgData', async (req, res) => {
-			const result = await templateImgDataCollection.find().toArray();
-			res.send(result);
-		});
-
-		app.get('/templateVideosData', async (req, res) => {
-			const result = await templateVideosDataCollection.find().toArray();
-			res.send(result);
-		});
-
-		// users api started here 
-
+		// users api started here
 		app.post('/users', async (req, res) => {
 			const user = req.body;
 
 			const query = { email: user.email };
 			const existingUser = await usersCollection.findOne(query);
-			
+
 			if (existingUser) {
 				return res.send({ message: 'User is already exists' });
 			}
@@ -203,53 +171,64 @@ async function run() {
 			res.send(result);
 		});
 
-		app.get('/users', verifyJWT, verifyAdmin, async(req, res) => {
+		app.get('/users', verifyJWT, verifyAdmin, async (req, res) => {
 			const result = await usersCollection.find().toArray();
 			res.send(result);
-		})
+		});
 
-		// users api ended here 
+		//Update user by email in DB
+		app.put('/users/:email', async (req, res) => {
+			const email = req.params.email;
+			const user = req.body;
+			const query = { email: email };
+			const options = { upsert: true };
+			const updateDoc = {
+				$set: user,
+			};
+			const result = await usersCollection.updateOne(
+				query,
+				updateDoc,
+				options
+			);
+			res.send(result);
+		});
+
+		// users api ended here
 
 		// make admin api
-		app.patch('/users/admin/:id', async(req, res) => {
+		app.patch('/users/admin/:id', async (req, res) => {
 			const id = req.params.id;
-			const query = {_id: new ObjectId(id)}
+			const query = { _id: new ObjectId(id) };
 			const updateDoc = {
-			  $set: {
-				role: 'admin'
-			  }
-			}
-			const result = await usersCollection.updateOne(query, updateDoc)
-			res.send(result)
-		  })
+				$set: {
+					role: 'admin',
+				},
+			};
+			const result = await usersCollection.updateOne(query, updateDoc);
+			res.send(result);
+		});
 
-
-		// verify admin 
-		app.get('/users/admin/:email', verifyJWT, async(req, res) => {
+		// verify admin
+		app.get('/users/admin/:email', verifyJWT, async (req, res) => {
 			const email = req.params.email;
-			const decodedEmail =  req.decoded.email;
-			if(email !== decodedEmail){
-			res.send({admin: false})
+			const decodedEmail = req.decoded.email;
+			if (email !== decodedEmail) {
+				res.send({ admin: false });
 			}
-			const query = {email: email};
+			const query = { email: email };
 			const user = await usersCollection.findOne(query);
-			res.send({admin: user?.role === "admin"})
-		})
+			res.send({ admin: user?.role === 'admin' });
+		});
 
-		// user feedback apis
-		app.post('/feedback', async(req, res) => {
+		// user feedback api
+		app.post('/feedback', async (req, res) => {
 			const feedback = req.body;
 			const result = await feedbackCollection.insertOne(feedback);
 			res.send(result);
-		})
+		});
 
-		app.get('/feedback', async(req, res) => {
-			const result = await feedbackCollection.find().toArray();
-			res.send(result);
-		})
-
-		// Admin statistics for dashborad ( verifyJWT, verifyAdmin,)
-		app.get('/admin-stats', async(req, res) => {
+		// Admin statistics for dashborad
+		app.get('/admin-stats', verifyJWT, verifyAdmin, async (req, res) => {
 			const users = await usersCollection.estimatedDocumentCount();
 			const videos = await videosCollection.estimatedDocumentCount();
 			const images = await imagesCollection.estimatedDocumentCount();
@@ -257,39 +236,14 @@ async function run() {
 			// if user paid info is saved into the database
 			// const payments = await paymentsCollection.find().toArray();
 			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
-
 
 			res.send({
 				users,
 				videos,
 				images,
 				// revenue
-			})
-		})
-		
-		// Admin chart for dashborad ( verifyJWT, verifyAdmin,)
-		app.get('/admin-chart', async(req, res) => {
-			const users = await usersCollection.estimatedDocumentCount();
-			const videos = await videosCollection.estimatedDocumentCount();
-			const images = await imagesCollection.estimatedDocumentCount();
-
-			// if user paid info is saved into the database
-			// const payments = await paymentsCollection.find().toArray();
-			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
-			
-			const dataChart = [
-				users,
-				videos,
-				images,
-				// revenue
-			  ];
-
-			res.send(dataChart)
-		})
-		
-
-
-	  
+			});
+		});
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
