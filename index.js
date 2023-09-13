@@ -228,6 +228,11 @@ async function run() {
 			res.send(result);
 		});
 
+		app.get('/feedback', async(req, res) => {
+			const result = await feedbackCollection.find().toArray();
+			res.send(result);
+		})
+
 		// Admin statistics for dashborad
 		app.get('/admin-stats', verifyJWT, verifyAdmin, async (req, res) => {
 			const users = await usersCollection.estimatedDocumentCount();
