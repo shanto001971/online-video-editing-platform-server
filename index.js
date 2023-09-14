@@ -111,8 +111,9 @@ async function run() {
 		});
 
 		// Payment methods api is here
-		const tran_id = new ObjectId().toString();
+
 		app.post('/payments', async (req, res) => {
+			const tran_id = new ObjectId().toString();
 			const value = req.body;
 			const price = value.price;
 			const data = {
@@ -177,6 +178,7 @@ async function run() {
 						},
 					}
 				);
+				console.log(result.modifiedCount);
 				if (result.modifiedCount > 0) {
 					res.redirect(
 						`http://localhost:5173/payments/success/${req.params.tranId}`
