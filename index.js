@@ -177,24 +177,15 @@ async function run() {
 			res.send(result);
 		});
 
-		//Update user by email in DB
-		app.put('/users/:email', async (req, res) => {
-			const email = req.params.email;
-			const user = req.body;
-			const query = { email: email };
-			const options = { upsert: true };
-			const updateDoc = {
-				$set: user,
-			};
-			const result = await usersCollection.updateOne(
-				query,
-				updateDoc,
-				options
-			);
-			res.send(result);
-		});
+		// user delete api
+		app.delete('/users/:id', async(req, res) => {
+		const id = req.params.id;
+		const query = {_id: new ObjectId(id)}
+		const result = await usersCollection.deleteOne(query);
+		res.send(result)
+		})
 
-		// users api ended here
+		// users api ended here 
 
 		// make admin api
 		app.patch('/users/admin/:id', async (req, res) => {
@@ -245,6 +236,27 @@ async function run() {
 				// revenue
 			});
 		});
+
+		
+		// Admin chart for dashborad ( verifyJWT, verifyAdmin,)
+		app.get('/admin-chart', async(req, res) => {
+			const users = await usersCollection.estimatedDocumentCount();
+			const videos = await videosCollection.estimatedDocumentCount();
+			const images = await imagesCollection.estimatedDocumentCount();
+
+			// if user paid info is saved into the database
+			// const payments = await paymentsCollection.find().toArray();
+			// const revenue = payments.reduce((sum, payment) => sum + payment.price, 0)
+			
+			const dataChart = [
+				users,
+				videos,
+				images,
+				// revenue
+			  ];
+
+			res.send(dataChart)
+		})
 
 		// Send a ping to confirm a successful connection
 		await client.db('admin').command({ ping: 1 });
