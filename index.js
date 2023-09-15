@@ -69,6 +69,7 @@ async function run() {
 		const demoVideoTemplate = db.collection('templateVideosData');
 		const demoImagesTemplate = db.collection('templateImagesData');
 		const allTemplateData = db.collection('allTemplateData');
+		const candidateCollection = db.collection('candidates');
 
 		const usersCollection = db.collection('users');
 		const feedbackCollection = db.collection('feedback');
@@ -110,8 +111,19 @@ async function run() {
 			res.send(result);
 		});
 
-		// Payment methods api is here
+		// candidates getting updated
+		app.get('/jobPost', async (req, res) => {
+			const result = await candidateCollection.find().toArray();
+			res.send(result);
+		});
 
+		app.post('/jobPost', async (req, res) => {
+			const application = req.body;
+			const result = await candidateCollection.insertOne(application);
+			res.send(result);
+		});
+
+		// Payment methods api is here
 		app.post('/payments', async (req, res) => {
 			const tran_id = new ObjectId().toString();
 			const value = req.body;
@@ -284,6 +296,14 @@ async function run() {
 				images,
 				// revenue
 			});
+		});
+
+		// Delete users
+		app.delete('/users/:id', async (req, res) => {
+			const id = req.params.id;
+			const query = { _id: new ObjectId(id) };
+			const result = await usersCollection.deleteOne(query);
+			res.send(result);
 		});
 
 		// Send a ping to confirm a successful connection
